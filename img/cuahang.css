@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Poor Story', cursive;
+}
+
+/*header*/
+.Hedear {
+    display: flex;
+    justify-content: space-around;
+    background-color: floralwhite;
+}
+
+/*logo*/
+.logo img {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+/*menu*/
+.menu {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+
+    margin: 60px 30px;
+}
+.color{
+    background-color: #8CC63F;
+    border-radius: 5px;
+}
+.menu li a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #666666D9;
+}
+
+.menu li:hover a:hover {
+    background-color: #8CC63F;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    color: #FFFFFF;
+}
+
+/*search*/
+.search {
+  padding: 50px 20px;
+}
+
+.search input {
+  border-radius: 20px;
+  width: 230px;
+  height: 35px;
+}
+
+
+
+
+button {
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+}
+
+button:hover {
+  color: #FFFFFF;
+  background-color: #8CC63F;
+}
+input[type=text] {
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* input[type=text]:focus {
+    width: 70%;
+  } */
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    line-height: 5px;
+    border-radius: 5px;
+  }
+
+  .content{
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 2vh;
+     color: #666666D9;
+
+  }
+
+.danhmuc{
+    display: flex;
+    margin-left: 60px;
+    flex-wrap: wrap;
+}
+.fond{
+    width: calc(30% - 16px);
+    margin: 40px 25px;
+    box-shadow: 5px 5px 20px 1px rgb(143, 135, 135);
+    border-radius: 5px;
+}
+.fond:hover{
+    box-shadow: 8px 8px 5px 0.5px rgb(143, 135, 135);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+/*pro*/
+
+  
+  .light
+  {
+    display:table-cell;
+    width:450px; height:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+  }
+  /* .light .mini
+  {
+    background-color:rgba(19, 143, 62, 0.693);
+    position: absolute;
+    z-index: 1000;
+    top:0;left:0;right:0;bottom:0;
+    
+  } */
+  /*user*/
+  .light:hover .mini
+  {
+    background-color:rgba(16,23,41,0);
+    
+  }
+  .light .deroul_titre 
+  {
+    position: absolute;
+    text-transform: uppercase;
+    padding: 15px;
+    z-index: 1000;
+    top:50%;left:-80%;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 15px; width: 80%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+    text-decoration: none;
+    font-family: 'Poor Story', cursive;
+  }
+  .light:hover .deroul_titre
+  {
+    background-color:#1e4944; left:0px;
+    
+  }
+  .light .deroul_soustitre
+  {
+    position: absolute;
+    font-family: 'Roboto';
+    padding: 15px;
+    z-index: 1000;
+    top:55%;right:-85%;
+    margin-top: 25px;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 22px; width: 80%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+    text-decoration: none;
+    font-family: 'Poor Story', cursive; 
+
+  }
+  .light:hover .deroul_soustitre
+  {
+    background-color:  #8CC63F;right:0px;
+  } 
+  .light .titre 
+  {
+    position: absolute;
+    text-transform: uppercase;
+    padding: 10px ;
+    z-index: 1000;
+    top:10%;top:-20%;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 13px; width: 15%; height: 15%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+    text-decoration: none;
+  }
+  .fa-2x{
+    color: #ffffff;
+  }
+  .light:hover .titre
+  {
+    background-color: #235fea; top:0px;
+    border-radius: 5px;
+  }
+
+
+
+  /*footer*/
+footer{
+  clear: both;
+  background-color: rgb(40, 38, 38);  
+  height: 300px;
+}
+footer .exitone{
+  display: flex;
+  justify-content: space-around;
+
+}
+footer .exitone .ketthuc p{
+color: #FFFFFF;  
+text-align: center;
+padding: 5px 0px;
+}
+footer .exitone .ketthuc p:hover{
+  color: #8CC63F;
+}
+footer .exitone .ketthucc p{
+color: #FFFFFF;  
+
+padding: 5px 0px;
+}
+footer .exitone .ketthucc p:hover{
+  color: #8CC63F;
+  
+}
+footer .exitone .ketthuc h2{
+  color: #FFFFFF;
+}
+footer .exitone .ketthucc img{
+  width: 146px;
+  height: 53px;
+}
+footer .exitone .ketthuc{
+  margin-top: 30px;
+}
+footer .exitone .ketthucc{
+  margin-top: 30px;
+}
+.lienheicon{
+
+  text-align: center;
+}
+.lienheicon i{
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 30px 4px;
+}
+.lienheicon i:hover{
+  color: #8CC63F;
+}

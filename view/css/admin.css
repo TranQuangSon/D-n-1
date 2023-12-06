@@ -1,0 +1,80 @@
+.body{
+    font-family: 'Poor Story', cursive;
+}
+.logo img{
+    width: 200px;
+  
+}
+.logo{
+    margin-left: 250px;
+}
+.one a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+.one a:hover{
+    color: #8cc63f;
+}
+
+.menu{
+    margin: auto;
+}
+.menu li a{
+    padding: 0px 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: #8cc63f;
+}
+.menuphai{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+button{
+    padding: 7px; 
+    font-weight: bold;
+    
+}
+.cuoi{
+    width: 600px;
+    margin: 0 auto;
+
+}
+button a{
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+
+}
+button:hover{
+    color:#fff;
+    background-color: #8cc63f;
+}
+input{
+    padding: 7px; 
+    font-weight: bold;
+    
+}
+
+input a{
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+
+}
+input:hover{
+    color:#fff;
+    background-color: #8cc63f;
+}
+input[type='text'],input[type='submit']{
+    height: 41.2px;
+}
+.search{
+    width: 200px;
+    height: 41.2px;
+}

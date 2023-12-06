@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Poor Story', cursive;
+    cursor: grab;
+}
+
+/*header*/
+.Hedear {
+    display: flex;
+    justify-content: space-around;
+    background-color: floralwhite;
+    margin-bottom: 20px;
+}
+
+/*logo*/
+.logo img {
+    margin-left: 50px;
+    width: 160px;
+    height: 100px;
+}
+
+/*menu*/
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+
+    margin: 60px 20px;
+}
+
+.menu li a {
+    padding: 3px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #666666D9;
+}
+
+.menu li:hover a:hover {
+    background-color: #8CC63F;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    color: #FFFFFF;
+}
+
+/*search*/
+.search {
+    padding: 50px 20px;
+}
+
+.search input {
+    border-radius: 20px;
+    width: 230px;
+    height: 35px;
+    color: #8CC63F;
+    background-color: floralwhite;
+
+}
+
+.search button {
+    height: 35px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+.search button:hover {
+    color: #FFFFFF;
+    background-color: #8CC63F;
+}
+
+/*slide*/
+.slide img {
+    width: 100%;
+    height: 400px;
+}
+
+.my-5 {
+    margin-left: 80px;
+}
+
+/*footer*/
+footer {
+
+    clear: both;
+    background-color: rgb(40, 38, 38);
+    height: 400px;
+}
+
+footer .exitone {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+footer .exitone .ketthuc p {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+footer .exitone .ketthuc p:hover {
+    color: #8CC63F;
+}
+
+footer .exitone .ketthucc p {
+    color: #FFFFFF;
+}
+
+footer .exitone .ketthucc p:hover {
+    color: #8CC63F;
+
+}
+
+footer .exitone .ketthuc h2 {
+    color: #FFFFFF;
+}
+
+footer .exitone .ketthucc img {
+    width: 146px;
+    height: 53px;
+}
+
+footer .exitone .ketthuc {
+    margin-top: 30px;
+}
+
+footer .exitone .ketthucc {
+    margin-top: 30px;
+}
+
+.lienheicon {
+
+    text-align: center;
+}
+
+.lienheicon i {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 30px 4px;
+}
+
+.lienheicon i:hover {
+    color: #8CC63F;
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+
+}
+.boxmenu{
+    display: flex;
+}
+.menu li a{
+    color: #8cc63f;
+    transition: 0.8s;
+}
+.menu li a:hover {
+    color: black;
+    font-size: 1.5vw;
+}
+ul li:hover{
+    background-color: #8cc63f;
+}
+.menutrai{
+    width: 30%;
+    background-color: floralwhite;
+}
+.menuphai{
+    margin-left: 20px;
+    width: 65% ;
+    background-color: floralwhite;
+}
